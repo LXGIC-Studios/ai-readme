@@ -1,0 +1,45 @@
+{
+  "name": "@lxgicstudios/ai-readme",
+  "version": "1.0.0",
+  "description": "Generate professional README.md files from codebase analysis. Scans package.json, detects frameworks, outputs badges, install instructions, API docs, and more.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "bin": {
+    "ai-readme": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "readme",
+    "generator",
+    "documentation",
+    "markdown",
+    "cli",
+    "codebase",
+    "badges",
+    "api-docs",
+    "project-setup",
+    "developer-tools",
+    "typescript",
+    "npm",
+    "scaffold"
+  ],
+  "author": "LXGIC Studios",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lxgicstudios/ai-readme"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@types/node": "^25.2.2",
+    "typescript": "^5.9.3"
+  }
+}
